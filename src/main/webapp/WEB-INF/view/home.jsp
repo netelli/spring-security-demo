@@ -11,6 +11,8 @@
     <title>Home Page</title>
 </head>
 <body>
-
+<h2>Home page</h2>
+<hr/>
+<p>Welcome to Home page</p>
 </body>
 </html>
