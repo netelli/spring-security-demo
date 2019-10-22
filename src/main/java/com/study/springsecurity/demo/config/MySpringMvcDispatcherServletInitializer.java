@@ -1,4 +1,4 @@
-package com.study.springsecurity.demo;
+package com.study.springsecurity.demo.config;
 
 import com.study.springsecurity.demo.config.DemoAppConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
