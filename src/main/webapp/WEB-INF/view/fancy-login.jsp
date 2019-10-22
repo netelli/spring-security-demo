@@ -37,7 +37,7 @@
 
                 <!-- Login Form -->
                 <form action="${pageContext.request.contextPath}/authenticateTheUser"
-                           method="POST" class="form-horizontal">
+                      method="POST" class="form-horizontal">
 
                     <!-- Place for messages: error, alert etc ... -->
                     <div class="form-group">
@@ -77,7 +77,8 @@
                             <button type="submit" class="btn btn-success">Login</button>
                         </div>
                     </div>
-
+                    <%--					Manually add token--%>
+                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
                 </form>
 
             </div>
