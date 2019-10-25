@@ -21,7 +21,17 @@
     <br/><br/>
     Role(s): <security:authentication property="principal.authorities"/>
 </p>
+<hr/>
+<%--Add link to point to /leaders for managers only--%>
+<p>
+    <a href="${pageContext.request.contextPath}/leaders">Leadership Meetings</a>
+</p>
 
+<hr/>
+<%--Add link to point to /systems for admins only--%>
+<p>
+    <a href="${pageContext.request.contextPath}/systems">IT Systems Meetings</a>
+</p>
 
 <hr/>
 <form:form action="${pageContext.request.contextPath}/logout"
